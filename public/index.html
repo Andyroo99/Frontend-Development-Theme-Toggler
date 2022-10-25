@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Toggler</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="app.js"></script>
+  </head>
+
+  <body class="light">
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">About</li>
+
+        <!-- Dropdown -->
+
+        <li class="nav-item has-dropdown">
+          <a href="#">Theme</a>
+          <ul class="dropdown">
+            <li class="dropdown-item">
+              <a id="light" href="#">light</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="dark" href="#">dark</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="solar" href="#">solarize</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">Login</li>
+      </ul>
+    </nav>
+
+    <header>
+      <img src="logo.png" class="logo" />
+      <h1>Front-End Web Development</h1>
+      <p>Try hovering over the theme button at the top</p>
+    </header>
+
+    <main>
+      <h3>HTML</h3>
+      <p>
+        HTML was used in this example to maily provide the text and basic structure
+        to be modified by the attached css file.
+      </p>
+      <h3>CSS</h3>
+      <p>
+        CSS is responsible for the text style, size, positioning, color, and even more on this website.
+      </p>
+      <h3>JavaScript</h3>
+      <p>
+        JavaScript helps to add interactivity to this page.  Without it, the entire theme system would
+        be impossible.  Try refreshing the page on a different theme that you originally started with.
+      </p>
+      <img src="IMG_2829.JPG" alt="picture of website creator" class="selfie"> 
+    </main>
+  </body>
+</html>
